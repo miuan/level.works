@@ -1,0 +1,31 @@
+.Cell {
+    border-style: solid;
+    border-width: 0.001em;
+    border-color: whitesmoke;
+    overflow: hidden;
+    padding: 2px 5px;
+    flex: 1;
+    min-width: 15px;
+    min-height: 15px;
+    
+}
+
+.CellText {
+    font-size: 0.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.CellSelected {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.CellSelected > .CellText { color: black;}
+
+.CellFib {
+    background-color: green;
+    font-weight: bold;
+}
+
+.CellFib > .CellText { color: black;}
